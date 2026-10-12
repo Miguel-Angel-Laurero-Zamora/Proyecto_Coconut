@@ -13,8 +13,7 @@ const captains = [
 </script>
 
 <template>
-  <div class="page"><PageHeader eyebrow="02 - REGISTRO Y PRUEBAS" title="Capitanes" description="Anota tintas, habilidades y sinergias para los posibles Capitanes del set 14." />
-    <section class="captain-grid"><CaptainCard v-for="(captain, index) in captains" :key="captain.name" :captain="captain" :number="index + 1" /></section>
+  <div class="mx-auto max-w-[1000px]"><PageHeader eyebrow="02 - REGISTRO Y PRUEBAS" title="Capitanes" description="Anota tintas, habilidades y sinergias para los posibles Capitanes del set 14." />
+    <section class="grid grid-cols-2 gap-[15px] py-[45px] max-[800px]:grid-cols-1"><CaptainCard v-for="(captain, index) in captains" :key="captain.name" :captain="captain" :number="index + 1" /></section>
   </div>
 </template>
-

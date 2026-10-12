@@ -8,9 +8,13 @@ const tips = [
 </script>
 
 <template>
-  <div class="page"><PageHeader eyebrow="03 &middot; TEAMBUILDING" title="Construcci&oacute;n de mazo" description="Tres tintas y una copia por carta hacen que cada elecci&oacute;n cuente." />
-    <ol class="tip-list"><li v-for="(tip, index) in tips" :key="tip.title"><span class="tip-number">0{{ index + 1 }}</span><div><h2>{{ tip.title }}</h2><p>{{ tip.text }}</p></div></li></ol>
+  <div class="mx-auto max-w-[1000px]"><PageHeader eyebrow="03 &middot; TEAMBUILDING" title="Construcci&oacute;n de mazo" description="Tres tintas y una copia por carta hacen que cada elecci&oacute;n cuente." />
+    <ol class="list-none py-[30px]">
+      <li v-for="(tip, index) in tips" :key="tip.title" class="grid grid-cols-[55px_1fr] gap-[18px] border-b border-coconut-border py-[22px]">
+        <span class="font-display text-xl font-semibold text-coconut-gold">0{{ index + 1 }}</span>
+        <div><h2 class="mb-2 font-sans text-[19px] font-semibold">{{ tip.title }}</h2><p class="m-0 text-[13px] leading-[1.75] text-coconut-muted-strong">{{ tip.text }}</p></div>
+      </li>
+    </ol>
   </div>
 </template>
-
 
