@@ -10,33 +10,26 @@ export interface Ink {
   image: string
 }
 
-const inkCatalog: Ink[] = [
+const inkCatalog = [
   { name: 'Ámbar', image: '/img/tintas/Amber.webp' },
   { name: 'Amatista', image: '/img/tintas/Amethyst.webp' },
   { name: 'Esmeralda', image: '/img/tintas/Emerald.webp' },
   { name: 'Rubí', image: '/img/tintas/Ruby.webp' },
   { name: 'Zafiro', image: '/img/tintas/Sapphire.webp' },
   { name: 'Acero', image: '/img/tintas/Steel.webp' },
-]
+] as const satisfies readonly Ink[]
 
-function chooseRandomInks(): Ink[] {
-  const shuffled = [...inkCatalog]
+type InkName = (typeof inkCatalog)[number]['name']
 
-  for (let index = shuffled.length - 1; index > 0; index--) {
-    const randomIndex = Math.floor(Math.random() * (index + 1))
-    const currentInk = shuffled[index]
-    const randomInk = shuffled[randomIndex]
-
-    if (currentInk && randomInk) {
-      shuffled[index] = randomInk
-      shuffled[randomIndex] = currentInk
-    }
+function findInk(name: InkName): Ink {
+  const ink = inkCatalog.find((candidate) => candidate.name === name)
+  if (!ink) {
+    throw new Error(`Unknown captain ink: ${name}`)
   }
-
-  return shuffled.slice(0, 2)
+  return ink
 }
 
-const captainCatalog = [
+const captainCatalog: Omit<Captain, 'inks'>[] = [
   { slug: 'ariel', name: 'Ariel', image: '/img/capitanes/Ariel.jpg' },
   { slug: 'donald', name: 'Donald', image: '/img/capitanes/Donald.jpg' },
   { slug: 'dumbo', name: 'Dumbo', image: '/img/capitanes/Dumbo.jpg' },
@@ -58,7 +51,36 @@ const captainCatalog = [
   { slug: 'aladdin-genio', name: 'Aladdín y el Genio', image: '/img/capitanes/Aladdin_Genie.jpg' },
 ]
 
-export const captains: Captain[] = captainCatalog.map((captain) => ({
-  ...captain,
-  inks: chooseRandomInks(),
-}))
+const captainInkBySlug: Record<string, InkName[]> = {
+  ariel: ['Ámbar'],
+  donald: ['Esmeralda'],
+  dumbo: ['Amatista'],
+  'john-silver': ['Acero'],
+  mickey: ['Rubí'],
+  moana: ['Zafiro'],
+  'mr-increible': ['Rubí'],
+  mufasa: ['Zafiro'],
+  nick: ['Zafiro'],
+  pocahontas: ['Ámbar'],
+  'robin-hood': ['Esmeralda'],
+  scar: ['Acero'],
+  sisu: ['Rubí'],
+  stitch: ['Ámbar'],
+  tinkerbell: ['Acero'],
+  ursula: ['Esmeralda'],
+  winnie: ['Amatista'],
+  'snow-white': ['Amatista'],
+  'aladdin-genie': ['Amatista', 'Esmeralda'],
+}
+
+export const captains: Captain[] = captainCatalog.map((captain) => {
+  const inkNames = captainInkBySlug[captain.slug]
+  if (!inkNames) {
+    throw new Error(`Missing ink assignment for captain: ${captain.slug}`)
+  }
+
+  return {
+    ...captain,
+    inks: inkNames.map(findInk),
+  }
+})
