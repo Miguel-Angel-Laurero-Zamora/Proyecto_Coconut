@@ -2,9 +2,41 @@ export interface Captain {
   slug: string
   name: string
   image: string
+  inks: Ink[]
 }
 
-export const captains: Captain[] = [
+export interface Ink {
+  name: string
+  image: string
+}
+
+const inkCatalog: Ink[] = [
+  { name: 'Ámbar', image: '/img/tintas/Amber.webp' },
+  { name: 'Amatista', image: '/img/tintas/Amethyst.webp' },
+  { name: 'Esmeralda', image: '/img/tintas/Emerald.webp' },
+  { name: 'Rubí', image: '/img/tintas/Ruby.webp' },
+  { name: 'Zafiro', image: '/img/tintas/Sapphire.webp' },
+  { name: 'Acero', image: '/img/tintas/Steel.webp' },
+]
+
+function chooseRandomInks(): Ink[] {
+  const shuffled = [...inkCatalog]
+
+  for (let index = shuffled.length - 1; index > 0; index--) {
+    const randomIndex = Math.floor(Math.random() * (index + 1))
+    const currentInk = shuffled[index]
+    const randomInk = shuffled[randomIndex]
+
+    if (currentInk && randomInk) {
+      shuffled[index] = randomInk
+      shuffled[randomIndex] = currentInk
+    }
+  }
+
+  return shuffled.slice(0, 2)
+}
+
+const captainCatalog = [
   { slug: 'ariel', name: 'Ariel', image: '/img/capitanes/Ariel.jpg' },
   { slug: 'donald', name: 'Donald', image: '/img/capitanes/Donald.jpg' },
   { slug: 'dumbo', name: 'Dumbo', image: '/img/capitanes/Dumbo.jpg' },
@@ -25,3 +57,8 @@ export const captains: Captain[] = [
   { slug: 'snow-white', name: 'Blancanieves', image: '/img/capitanes/snowwhite.jpg' },
   { slug: 'aladdin-genio', name: 'Aladdín y el Genio', image: '/img/capitanes/Aladdin_Genie.jpg' },
 ]
+
+export const captains: Captain[] = captainCatalog.map((captain) => ({
+  ...captain,
+  inks: chooseRandomInks(),
+}))

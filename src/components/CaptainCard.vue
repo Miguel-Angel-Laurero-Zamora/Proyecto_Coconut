@@ -15,7 +15,10 @@ defineProps<{
       <div class="flex justify-between gap-2 text-[9px] tracking-[.12em] text-coconut-green max-[480px]:flex-wrap"><span class="max-[480px]:text-[8px]">CAPIT&Aacute;N {{ String(number).padStart(2, '0') }}</span><span class="text-coconut-gold max-[480px]:text-[8px]">POR DEFINIR</span></div>
       <h2 class="mt-[10px] font-display text-[22px] font-semibold">{{ captain.name }}</h2>
       <dl class="my-4">
-        <dt class="mt-[14px] text-[12px] font-bold text-coconut-dt">Tintas</dt><dd class="my-1 text-[13px] leading-[1.75] text-coconut-muted-strong">Completa las tres tintas, incluyendo las del Capit&aacute;n.</dd>
+        <dt class="mt-[14px] text-[12px] font-bold text-coconut-dt">Tintas sugeridas al azar</dt>
+        <dd class="my-2 flex gap-2">
+          <img v-for="ink in captain.inks" :key="ink.name" class="size-9 object-contain" :src="ink.image" :alt="ink.name" :title="ink.name">
+        </dd>
         <dt class="mt-[14px] text-[12px] font-bold text-coconut-dt">Habilidad</dt><dd class="my-1 text-[13px] leading-[1.75] text-coconut-muted-strong">A&ntilde;ade aqu&iacute; la habilidad de Capit&aacute;n.</dd>
         <dt class="mt-[14px] text-[12px] font-bold text-coconut-dt">Sinergias y notas</dt><dd class="my-1 text-[13px] leading-[1.75] text-coconut-muted-strong">Ideas de mazo y pruebas para este Capit&aacute;n.</dd>
       </dl>
