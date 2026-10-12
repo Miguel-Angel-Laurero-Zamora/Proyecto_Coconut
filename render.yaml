@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: proyecto-coconut
+    runtime: static
+    rootDir: Proyecto_Coconut
+    buildCommand: npm ci && npm run build-only
+    staticPublishPath: dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
