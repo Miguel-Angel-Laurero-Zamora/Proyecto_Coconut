@@ -49,9 +49,6 @@ const captainCatalog: Omit<Captain, 'inks'>[] = [
   { slug: 'winnie', name: 'Winnie', image: '/img/capitanes/Winnie.jpg' },
   { slug: 'snow-white', name: 'Blancanieves', image: '/img/capitanes/snowwhite.jpg' },
   { slug: 'aladdin-genie', name: 'Aladdín y el Genio', image: '/img/capitanes/Aladdin_Genie.jpg' },
-  { slug: 'bella-bestia', name: 'Bella y Bestia', image: '/img/capitanes/Aladdin_Genie.jpg' },
-  { slug: 'peter-tinker', name: 'Peter y Tinkerbell', image: '/img/capitanes/Aladdin_Genie.jpg' },
-  { slug: 'thevine', name: 'The Vine', image: '/img/capitanes/TheVine.jpg' },
 ]
 
 const captainInkBySlug: Record<string, InkName[]> = {
