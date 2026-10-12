@@ -1,15 +1,15 @@
 ﻿<script setup lang="ts">
+import { RouterLink } from 'vue-router'
+import type { Captain } from '../data/captains'
+
 defineProps<{
   number: number
-  captain: {
-    name: string
-    image: string
-  }
+  captain: Captain
 }>()
 </script>
 
 <template>
-  <article class="grid grid-cols-[minmax(120px,.8fr)_minmax(0,1.2fr)] items-start gap-5 rounded-[9px] border border-coconut-line bg-coconut-card p-[22px] max-[480px]:grid-cols-[minmax(90px,.7fr)_minmax(0,1.3fr)] max-[480px]:gap-3 max-[480px]:p-[14px]">
+  <RouterLink :to="{ name: 'capitan-detalle', params: { slug: captain.slug } }" class="grid grid-cols-[minmax(120px,.8fr)_minmax(0,1.2fr)] items-start gap-5 rounded-[9px] border border-coconut-line bg-coconut-card p-[22px] text-inherit no-underline transition-colors hover:border-coconut-gold max-[480px]:grid-cols-[minmax(90px,.7fr)_minmax(0,1.3fr)] max-[480px]:gap-3 max-[480px]:p-[14px]">
     <img class="h-full max-h-[360px] w-full rounded-md object-contain object-top max-[480px]:max-h-[280px]" :src="captain.image" :alt="`Ilustración de ${captain.name}`" loading="lazy">
     <div class="min-w-0">
       <div class="flex justify-between gap-2 text-[9px] tracking-[.12em] text-coconut-green max-[480px]:flex-wrap"><span class="max-[480px]:text-[8px]">CAPIT&Aacute;N {{ String(number).padStart(2, '0') }}</span><span class="text-coconut-gold max-[480px]:text-[8px]">POR DEFINIR</span></div>
@@ -21,5 +21,5 @@ defineProps<{
       </dl>
       <div class="border-t border-coconut-line pt-[14px] text-[11px] leading-[1.75] text-coconut-muted-strong">Estado: En pruebas - Descartado - Competitivo</div>
     </div>
-  </article>
+  </RouterLink>
 </template>
