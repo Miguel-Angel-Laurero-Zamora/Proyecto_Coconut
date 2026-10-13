@@ -39,6 +39,11 @@ const captain = computed(() => captains.find(({ slug }) => slug === route.params
           <p class="border-t border-coconut-line pt-5 text-xs leading-6 text-coconut-muted-strong">Estado: En pruebas - Descartado - Competitivo</p>
         </div>
       </section>
+
+      <section v-if="captain.deckImage">
+        <h2 class="font-display text-2xl font-semibold text-coconut-gold">Deck de ejemplo</h2>
+        <img class="max-h-[620px] w-full rounded-lg object-contain object-top" :src="captain.deckImage" :alt="`Deck de ejemplo de ${captain.name}`">
+      </section>
     </template>
     <section v-else class="py-16">
       <h1 class="font-display text-4xl font-bold">Capit&aacute;n no encontrado</h1>

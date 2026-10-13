@@ -2,6 +2,7 @@ export interface Captain {
   slug: string
   name: string
   image: string
+  deckImage?: string
   inks: Ink[]
 }
 
@@ -40,19 +41,45 @@ const captainCatalog: Omit<Captain, 'inks'>[] = [
   { slug: 'mufasa', name: 'Mufasa', image: '/img/capitanes/Mufasa.jpg' },
   { slug: 'nick', name: 'Nick', image: '/img/capitanes/Nick.jpg' },
   { slug: 'pocahontas', name: 'Pocahontas', image: '/img/capitanes/Pocahontas.jpg' },
-  { slug: 'robin-hood', name: 'Robin Hood', image: '/img/capitanes/RobinHood.jpg' },
+  {
+    slug: 'robin-hood',
+    name: 'Robin Hood',
+    image: '/img/capitanes/RobinHood.jpg',
+    deckImage: '/img/decks/coconut-gbs-spray-pray-robin-hood-duels-ink.jpg',
+  },
   { slug: 'scar', name: 'Scar', image: '/img/capitanes/Scar.jpg' },
   { slug: 'sisu', name: 'Sisu', image: '/img/capitanes/Sisu.jpg' },
-  { slug: 'stitch', name: 'Stitch', image: '/img/capitanes/Stitch.jpg' },
+  {
+    slug: 'stitch',
+    name: 'Stitch',
+    image: '/img/capitanes/Stitch.jpg',
+    deckImage: '/img/decks/stitch-coconut-duels-ink.jpg',
+  },
   { slug: 'tinkerbell', name: 'Tinker Bell', image: '/img/capitanes/Tinkerbell.jpg' },
   { slug: 'ursula', name: 'Ursula', image: '/img/capitanes/Ursula.jpg' },
   { slug: 'winnie', name: 'Winnie', image: '/img/capitanes/Winnie.jpg' },
   { slug: 'snow-white', name: 'Blancanieves', image: '/img/capitanes/Snowwhite.jpg' },
-  { slug: 'aladdin-genie', name: 'Aladdin & Genie', image: '/img/capitanes/Aladdin_Genie.jpg' },
+  {
+    slug: 'aladdin-genie',
+    name: 'Aladdin & Genie',
+    image: '/img/capitanes/Aladdin_Genie.jpg',
+    deckImage: '/img/decks/can-your-friends-do-this-duels-ink.jpg',
+  },
   { slug: 'peter-tinker', name: 'Peter Pan & Tinkerbell', image: '/img/capitanes/Peter_Tinker.jpg' },
-  { slug: 'belle-beast', name: 'Belle & Beast', image: '/img/capitanes/Bella_Bestia.jpg' },
+  {
+    slug: 'belle-beast',
+    name: 'Belle & Beast',
+    image: '/img/capitanes/Bella_Bestia.jpg',
+    deckImage: '/img/decks/belle-and-beast-coconut--duels-ink.jpg',
+  },
   { slug: 'the-vine', name: 'The Vine', image: '/img/capitanes/TheVine.jpg' },
-  { slug: 'woody-buzz', name: 'Woody & Buzz', image: '/img/capitanes/Woody_Buzz.jpg' },
+  {
+    slug: 'woody-buzz',
+    name: 'Woody & Buzz',
+    image: '/img/capitanes/Woody_Buzz.jpg',
+    deckImage: '/img/decks/buddy-and-wooz-coconut--duels-ink.jpg',
+  },
+  { slug: 'black-cauldron', name: 'Black Cauldron', image: '/img/capitanes/Cauldron.jpeg' },
 ]
 
 const captainInkBySlug: Record<string, InkName[]> = {
@@ -79,6 +106,7 @@ const captainInkBySlug: Record<string, InkName[]> = {
   'the-vine': ['Acero'],
   'peter-tinker': ['Amatista', 'Rubí'],
   'woody-buzz': ['Ámbar','Esmeralda'],
+  'black-cauldron': ['Ámbar'],
 }
 
 export const captains: Captain[] = captainCatalog.map((captain) => {
