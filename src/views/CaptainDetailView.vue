@@ -43,7 +43,7 @@ const captain = computed(() => captains.find(({ slug }) => slug === route.params
       <section v-if="captain.deckImage" class="mt-12 border-t border-coconut-border pt-8">
         <h2 class="mb-5 font-display text-2xl font-semibold text-coconut-gold">Deck de ejemplo</h2>
         <figure class="m-0 overflow-hidden rounded-lg border border-coconut-line bg-coconut-card p-2 sm:p-4">
-          <img class="mx-auto block h-auto w-full max-w-[900px] rounded-md" :src="captain.deckImage" :alt="`Deck de ejemplo de ${captain.name}`" loading="lazy" decoding="async">
+          <img class="mx-auto block h-auto w-full max-w-[900px] cursor-zoom-in rounded-md transition-transform duration-300 ease-out hover:scale-110 motion-reduce:transition-none" :src="captain.deckImage" :alt="`Deck de ejemplo de ${captain.name}`" loading="lazy" decoding="async">
         </figure>
       </section>
     </template>
