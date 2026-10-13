@@ -2,10 +2,28 @@
 import { computed, ref } from 'vue'
 import { RouterLink, useRoute } from 'vue-router'
 import { captains } from '../data/captains'
+import decks from '../data/decks.json'
 
 const route = useRoute()
 const captain = computed(() => captains.find(({ slug }) => slug === route.params.slug))
+const captainDeck = computed(() => Object.entries(decks).find(([slug]) => slug === captain.value?.slug)?.[1])
 const deckZoomOrigin = ref('50% 50%')
+const copyStatus = ref('')
+
+async function copyDeckList() {
+  const deck = captainDeck.value
+  if (!deck) return
+
+  const deckList = deck.cards.map(({ quantity, name }) => `${quantity} ${name}`).join('\n')
+  copyStatus.value = ''
+
+  try {
+    await navigator.clipboard.writeText(deckList)
+    copyStatus.value = 'Lista copiada. Ya puedes pegarla en Dreamborn.ink u otro sitio compatible.'
+  } catch {
+    copyStatus.value = 'No se pudo copiar. Comprueba los permisos del navegador e inténtalo de nuevo.'
+  }
+}
 
 function updateDeckZoom(event: MouseEvent) {
   const bounds = event.currentTarget instanceof HTMLElement
@@ -57,9 +75,15 @@ function resetDeckZoom() {
         </div>
       </section>
 
-      <section v-if="captain.deckImage" class="mt-12 border-t border-coconut-border pt-8">
-        <h2 class="mb-5 font-display text-2xl font-semibold text-coconut-gold">Deck de ejemplo</h2>
-        <figure class="m-0 rounded-lg border border-coconut-line bg-coconut-card p-2 sm:p-4">
+      <section v-if="captain.deckImage || captainDeck" class="mt-12 border-t border-coconut-border pt-8">
+        <div class="mb-5 flex flex-wrap items-center justify-between gap-3">
+          <h2 class="m-0 font-display text-2xl font-semibold text-coconut-gold">Deck de ejemplo</h2>
+          <button v-if="captainDeck" type="button" class="rounded-md border border-coconut-green px-4 py-2 text-sm font-semibold text-coconut-green transition-colors hover:bg-coconut-active hover:text-coconut-gold" @click="copyDeckList">
+            Exportar lista
+          </button>
+        </div>
+        <p v-if="copyStatus" class="mb-4 text-sm text-coconut-muted" role="status" aria-live="polite">{{ copyStatus }}</p>
+        <figure v-if="captain.deckImage" class="m-0 rounded-lg border border-coconut-line bg-coconut-card p-2 sm:p-4">
           <div class="group mx-auto max-w-[900px] overflow-hidden rounded-md" @mousemove="updateDeckZoom" @mouseleave="resetDeckZoom">
             <img class="block h-auto w-full cursor-zoom-in transition-transform duration-200 ease-out group-hover:scale-[3] group-hover:cursor-zoom-out motion-reduce:transition-none" :style="{ transformOrigin: deckZoomOrigin }" :src="captain.deckImage" :alt="`Deck de ejemplo de ${captain.name}`" loading="lazy" decoding="async">
           </div>
