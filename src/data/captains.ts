@@ -45,10 +45,13 @@ const captainCatalog: Omit<Captain, 'inks'>[] = [
   { slug: 'sisu', name: 'Sisu', image: '/img/capitanes/Sisu.jpg' },
   { slug: 'stitch', name: 'Stitch', image: '/img/capitanes/Stitch.jpg' },
   { slug: 'tinkerbell', name: 'Tinker Bell', image: '/img/capitanes/Tinkerbell.jpg' },
-  { slug: 'ursula', name: 'Úrsula', image: '/img/capitanes/Ursula.jpg' },
+  { slug: 'ursula', name: 'Ursula', image: '/img/capitanes/Ursula.jpg' },
   { slug: 'winnie', name: 'Winnie', image: '/img/capitanes/Winnie.jpg' },
   { slug: 'snow-white', name: 'Blancanieves', image: '/img/capitanes/snowwhite.jpg' },
-  { slug: 'aladdin-genie', name: 'Aladdín y el Genio', image: '/img/capitanes/Aladdin_Genie.jpg' },
+  { slug: 'aladdin-genie', name: 'Aladdin & Genie', image: '/img/capitanes/Aladdin_Genie.jpg' },
+  { slug: 'peter-tinker', name: 'Peter Pan & Tinkerbell', image: '/img/capitanes/Aladdin_Genie.jpg' },
+  { slug: 'belle-beast', name: 'Belle & Beast', image: '/img/capitanes/Aladdin_Genie.jpg' },
+  { slug: 'the-vine', name: 'The Vine', image: '/img/capitanes/Aladdin_Genie.jpg' },
 ]
 
 const captainInkBySlug: Record<string, InkName[]> = {
@@ -71,6 +74,9 @@ const captainInkBySlug: Record<string, InkName[]> = {
   winnie: ['Amatista'],
   'snow-white': ['Amatista'],
   'aladdin-genie': ['Amatista', 'Esmeralda'],
+  'belle-beast': ['Rubí', 'Zafiro'],
+  'the-vine': ['Acero'],
+  'peter-tinker': ['Amatista', 'Rubí'],
 }
 
 export const captains: Captain[] = captainCatalog.map((captain) => {
