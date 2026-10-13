@@ -1,10 +1,27 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, ref } from 'vue'
 import { RouterLink, useRoute } from 'vue-router'
 import { captains } from '../data/captains'
 
 const route = useRoute()
 const captain = computed(() => captains.find(({ slug }) => slug === route.params.slug))
+const deckZoomOrigin = ref('50% 50%')
+
+function updateDeckZoom(event: MouseEvent) {
+  const bounds = event.currentTarget instanceof HTMLElement
+    ? event.currentTarget.getBoundingClientRect()
+    : null
+
+  if (!bounds) return
+
+  const x = ((event.clientX - bounds.left) / bounds.width) * 100
+  const y = ((event.clientY - bounds.top) / bounds.height) * 100
+  deckZoomOrigin.value = `${x}% ${y}%`
+}
+
+function resetDeckZoom() {
+  deckZoomOrigin.value = '50% 50%'
+}
 </script>
 
 <template>
@@ -42,8 +59,10 @@ const captain = computed(() => captains.find(({ slug }) => slug === route.params
 
       <section v-if="captain.deckImage" class="mt-12 border-t border-coconut-border pt-8">
         <h2 class="mb-5 font-display text-2xl font-semibold text-coconut-gold">Deck de ejemplo</h2>
-        <figure class="m-0 overflow-hidden rounded-lg border border-coconut-line bg-coconut-card p-2 sm:p-4">
-          <img class="mx-auto block h-auto w-full max-w-[900px] cursor-zoom-in rounded-md transition-transform duration-300 ease-out hover:scale-110 motion-reduce:transition-none" :src="captain.deckImage" :alt="`Deck de ejemplo de ${captain.name}`" loading="lazy" decoding="async">
+        <figure class="m-0 rounded-lg border border-coconut-line bg-coconut-card p-2 sm:p-4">
+          <div class="group mx-auto max-w-[900px] overflow-hidden rounded-md" @mousemove="updateDeckZoom" @mouseleave="resetDeckZoom">
+            <img class="block h-auto w-full cursor-zoom-in transition-transform duration-200 ease-out group-hover:scale-[3] group-hover:cursor-zoom-out motion-reduce:transition-none" :style="{ transformOrigin: deckZoomOrigin }" :src="captain.deckImage" :alt="`Deck de ejemplo de ${captain.name}`" loading="lazy" decoding="async">
+          </div>
         </figure>
       </section>
     </template>
