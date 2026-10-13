@@ -16,7 +16,7 @@ const captain = computed(() => captains.find(({ slug }) => slug === route.params
         <h1 class="my-3 font-display text-[clamp(36px,6vw,60px)] font-bold">{{ captain.name }}</h1>
       </header>
       <section class="grid grid-cols-[minmax(220px,.8fr)_minmax(0,1.2fr)] gap-8 py-10 max-[700px]:grid-cols-1">
-        <img class="max-h-[620px] w-full rounded-lg object-contain object-top" :src="captain.image" :alt="`Ilustración de ${captain.name}`">
+        <img class="mx-auto block h-auto w-full max-w-[480px] rounded-lg object-contain object-top" :src="captain.image" :alt="`Ilustración de ${captain.name}`">
         <div class="space-y-7">
           <section>
             <h2 class="font-display text-2xl font-semibold text-coconut-gold">Tintas</h2>
@@ -40,9 +40,11 @@ const captain = computed(() => captains.find(({ slug }) => slug === route.params
         </div>
       </section>
 
-      <section v-if="captain.deckImage">
-        <h2 class="font-display text-2xl font-semibold text-coconut-gold">Deck de ejemplo</h2>
-        <img class="max-h-[620px] w-full rounded-lg object-contain object-top" :src="captain.deckImage" :alt="`Deck de ejemplo de ${captain.name}`">
+      <section v-if="captain.deckImage" class="mt-12 border-t border-coconut-border pt-8">
+        <h2 class="mb-5 font-display text-2xl font-semibold text-coconut-gold">Deck de ejemplo</h2>
+        <figure class="m-0 overflow-hidden rounded-lg border border-coconut-line bg-coconut-card p-2 sm:p-4">
+          <img class="mx-auto block h-auto w-full max-w-[900px] rounded-md" :src="captain.deckImage" :alt="`Deck de ejemplo de ${captain.name}`" loading="lazy" decoding="async">
+        </figure>
       </section>
     </template>
     <section v-else class="py-16">
