@@ -55,7 +55,6 @@ function resetDeckZoom() {
         <div class="space-y-7">
           <section>
             <h2 class="font-display text-2xl font-semibold text-coconut-gold">Tintas</h2>
-            <p class="text-xs text-coconut-muted">Sugeridas al azar</p>
             <div class="flex gap-3">
               <figure v-for="ink in captain.inks" :key="ink.name" class="m-0 flex items-center gap-2">
                 <img class="size-10 object-contain" :src="ink.image" :alt="ink.name" :title="ink.name">

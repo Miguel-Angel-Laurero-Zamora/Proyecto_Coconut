@@ -2095,5 +2095,1198 @@
         "name": "You Broke My Smolder"
       }
     ]
+  },
+  "donald": {
+    "source": "https://duels.ink/decks/01a05279-589b-7097-9add-02fa138f8aa4/view",
+    "cards": [
+      {
+        "quantity": 1,
+        "name": "Chernabog's Followers - Creatures of Evil"
+      },
+      {
+        "quantity": 1,
+        "name": "Diablo - Maleficent's Spy"
+      },
+      {
+        "quantity": 1,
+        "name": "Magic Broom - Illuminary Keeper"
+      },
+      {
+        "quantity": 1,
+        "name": "Olaf - Helping Hand"
+      },
+      {
+        "quantity": 1,
+        "name": "Flynn Rider - Spectral Scoundrel"
+      },
+      {
+        "quantity": 1,
+        "name": "Hercules - Spectral Demigod"
+      },
+      {
+        "quantity": 1,
+        "name": "Flynn Rider - Charming Rogue"
+      },
+      {
+        "quantity": 1,
+        "name": "Madam Mim - Snake"
+      },
+      {
+        "quantity": 1,
+        "name": "Go Go Tomago - Darting Dynamo"
+      },
+      {
+        "quantity": 1,
+        "name": "Diablo - Spiteful Raven"
+      },
+      {
+        "quantity": 1,
+        "name": "Merlin - Completing His Research"
+      },
+      {
+        "quantity": 1,
+        "name": "Ares - God of War"
+      },
+      {
+        "quantity": 1,
+        "name": "Scrooge McDuck - Ghostly Ebenezer"
+      },
+      {
+        "quantity": 1,
+        "name": "Scrooge's Counting House - Ebenezer's Office"
+      },
+      {
+        "quantity": 1,
+        "name": "Madam Mim - Fox"
+      },
+      {
+        "quantity": 1,
+        "name": "Diablo - Devoted Herald"
+      },
+      {
+        "quantity": 1,
+        "name": "Cheshire Cat - Inexplicable"
+      },
+      {
+        "quantity": 1,
+        "name": "Megara - Secret Keeper"
+      },
+      {
+        "quantity": 1,
+        "name": "Aladdin - Barreling Through"
+      },
+      {
+        "quantity": 1,
+        "name": "Genie - Magical Researcher"
+      },
+      {
+        "quantity": 1,
+        "name": "Genie - Wish Fulfilled"
+      },
+      {
+        "quantity": 1,
+        "name": "Merlin - Goat"
+      },
+      {
+        "quantity": 1,
+        "name": "Merlin - Rabbit"
+      },
+      {
+        "quantity": 1,
+        "name": "Madam Mim - Elephant"
+      },
+      {
+        "quantity": 1,
+        "name": "Madam Mim - Purple Dragon"
+      },
+      {
+        "quantity": 1,
+        "name": "Dumbo - Ninth Wonder of the Universe"
+      },
+      {
+        "quantity": 1,
+        "name": "Alice - Well-Read Whisper"
+      },
+      {
+        "quantity": 1,
+        "name": "Tigger - Bouncing All the Way"
+      },
+      {
+        "quantity": 1,
+        "name": "Magica De Spell - Shadow Form"
+      },
+      {
+        "quantity": 1,
+        "name": "Hades - Looking for a Deal"
+      },
+      {
+        "quantity": 1,
+        "name": "Ursula - Whisper of Vanessa"
+      },
+      {
+        "quantity": 1,
+        "name": "Ursula - Power Hungry"
+      },
+      {
+        "quantity": 1,
+        "name": "Lady Tremaine - Imperious Queen"
+      },
+      {
+        "quantity": 1,
+        "name": "Minnie Mouse - Mrs. Cratchit"
+      },
+      {
+        "quantity": 1,
+        "name": "Camilo Madrigal - Family Copycat"
+      },
+      {
+        "quantity": 1,
+        "name": "Mother Gothel - Unwavering Schemer"
+      },
+      {
+        "quantity": 1,
+        "name": "Little John - Impermanent Outlaw"
+      },
+      {
+        "quantity": 1,
+        "name": "Wreck-it Ralph - Raging Wrecker"
+      },
+      {
+        "quantity": 1,
+        "name": "Milo Thatch - Getting His Hands Dirty"
+      },
+      {
+        "quantity": 1,
+        "name": "Sisu - Empowered Sibling"
+      },
+      {
+        "quantity": 1,
+        "name": "Poor Unfortunate Souls"
+      },
+      {
+        "quantity": 1,
+        "name": "Junior Woodchuck Guidebook"
+      },
+      {
+        "quantity": 1,
+        "name": "Magical Maneuvers"
+      },
+      {
+        "quantity": 1,
+        "name": "Friends on the Other Side"
+      },
+      {
+        "quantity": 1,
+        "name": "Mother Knows Best"
+      },
+      {
+        "quantity": 1,
+        "name": "Bibbidi Bobbidi Boo"
+      },
+      {
+        "quantity": 1,
+        "name": "Be King Undisputed"
+      },
+      {
+        "quantity": 1,
+        "name": "Colors of the Wind"
+      },
+      {
+        "quantity": 1,
+        "name": "Put That Thing Back"
+      },
+      {
+        "quantity": 1,
+        "name": "With a Few Good Friends"
+      },
+      {
+        "quantity": 1,
+        "name": "Iago - Giant Spectral Parrot"
+      },
+      {
+        "quantity": 1,
+        "name": "Be Prepared"
+      },
+      {
+        "quantity": 1,
+        "name": "Lonely Grave"
+      },
+      {
+        "quantity": 1,
+        "name": "Signed Contract"
+      },
+      {
+        "quantity": 1,
+        "name": "Family Fishing Pole"
+      },
+      {
+        "quantity": 1,
+        "name": "Emerald Chromicon"
+      },
+      {
+        "quantity": 1,
+        "name": "Source of the Vine"
+      },
+      {
+        "quantity": 1,
+        "name": "Maui - Hero to All"
+      },
+      {
+        "quantity": 1,
+        "name": "Maui - Half-Shark"
+      },
+      {
+        "quantity": 1,
+        "name": "Sisu - Emboldened Warrior"
+      },
+      {
+        "quantity": 4,
+        "name": "Donald Duck - Fred Honeywell"
+      }
+    ]
+  },
+  "ursula": {
+    "source": "https://duels.ink/decks/01a0b433-2c19-764e-920a-7d2ff2614740/view",
+    "cards": [
+      {
+        "quantity": 1,
+        "name": "With a Few Good Friends"
+      },
+      {
+        "quantity": 1,
+        "name": "Gaetan Moliere - Clever Burrower"
+      },
+      {
+        "quantity": 1,
+        "name": "Goliath - Clan Leader"
+      },
+      {
+        "quantity": 1,
+        "name": "Beyond the Horizon"
+      },
+      {
+        "quantity": 1,
+        "name": "You're Welcome"
+      },
+      {
+        "quantity": 1,
+        "name": "Doc - Bold Knight"
+      },
+      {
+        "quantity": 1,
+        "name": "Diablo - Devoted Herald"
+      },
+      {
+        "quantity": 1,
+        "name": "A Whole New World"
+      },
+      {
+        "quantity": 1,
+        "name": "Aladdin & Genie - Mischievous Pals"
+      },
+      {
+        "quantity": 1,
+        "name": "Rapunzel & Flynn Rider - Unlikely Pair"
+      },
+      {
+        "quantity": 1,
+        "name": "Lyle Tiberius Rourke - Adventurer for Hire"
+      },
+      {
+        "quantity": 1,
+        "name": "Hades - Looking for a Deal"
+      },
+      {
+        "quantity": 1,
+        "name": "Demona - Scourge of the Wyvern Clan"
+      },
+      {
+        "quantity": 1,
+        "name": "Show Me More!"
+      },
+      {
+        "quantity": 1,
+        "name": "Amethyst Chromicon"
+      },
+      {
+        "quantity": 1,
+        "name": "Second Star to the Right"
+      },
+      {
+        "quantity": 1,
+        "name": "Jafar - Striking Illusionist"
+      },
+      {
+        "quantity": 1,
+        "name": "The Lamp"
+      },
+      {
+        "quantity": 1,
+        "name": "Merlin - Rabbit"
+      },
+      {
+        "quantity": 1,
+        "name": "Let the Storm Rage On"
+      },
+      {
+        "quantity": 1,
+        "name": "Friends on the Other Side"
+      },
+      {
+        "quantity": 1,
+        "name": "Strike a Good Match"
+      },
+      {
+        "quantity": 1,
+        "name": "Ursula's Trickery"
+      },
+      {
+        "quantity": 1,
+        "name": "Genie - Wish Fulfilled"
+      },
+      {
+        "quantity": 1,
+        "name": "Kuzco - Panicked Llama"
+      },
+      {
+        "quantity": 1,
+        "name": "Pull the Lever!"
+      },
+      {
+        "quantity": 1,
+        "name": "Bobby Zimuruski - Spray Cheese Kid"
+      },
+      {
+        "quantity": 1,
+        "name": "Jafar - Royal Vizier"
+      },
+      {
+        "quantity": 1,
+        "name": "Jafar - Dreadnought"
+      },
+      {
+        "quantity": 1,
+        "name": "Jafar - High Sultan of Lorcana"
+      },
+      {
+        "quantity": 1,
+        "name": "Jafar - Aspiring Ruler"
+      },
+      {
+        "quantity": 1,
+        "name": "Ursula - Voice Stealer"
+      },
+      {
+        "quantity": 1,
+        "name": "Ursula - Deceiver"
+      },
+      {
+        "quantity": 4,
+        "name": "Ursula - Deceiver of All"
+      },
+      {
+        "quantity": 1,
+        "name": "Colors of the Wind"
+      },
+      {
+        "quantity": 1,
+        "name": "Strange Things"
+      },
+      {
+        "quantity": 1,
+        "name": "We Don't Talk About Bruno"
+      },
+      {
+        "quantity": 1,
+        "name": "And Then Along Came Zeus"
+      },
+      {
+        "quantity": 1,
+        "name": "Strength of a Raging Fire"
+      },
+      {
+        "quantity": 1,
+        "name": "Sudden Chill"
+      },
+      {
+        "quantity": 1,
+        "name": "Max Goof - Rebellious Teen"
+      },
+      {
+        "quantity": 1,
+        "name": "The Muses - Proclaimers of Heroes"
+      },
+      {
+        "quantity": 1,
+        "name": "Lady Tremaine - Wicked Stepmother"
+      },
+      {
+        "quantity": 1,
+        "name": "Diablo - Stone Servant"
+      },
+      {
+        "quantity": 1,
+        "name": "Diablo - Obedient Raven"
+      },
+      {
+        "quantity": 1,
+        "name": "Maleficent & Diablo - Evil Incarnate"
+      },
+      {
+        "quantity": 1,
+        "name": "Diablo - Maleficent's Spy"
+      },
+      {
+        "quantity": 1,
+        "name": "Diablo - Spiteful Raven"
+      },
+      {
+        "quantity": 1,
+        "name": "Morph - Little Imitator"
+      },
+      {
+        "quantity": 1,
+        "name": "Prince John - Greediest of All"
+      },
+      {
+        "quantity": 1,
+        "name": "Prince John's Mirror"
+      },
+      {
+        "quantity": 1,
+        "name": "Morph - Space Goo"
+      },
+      {
+        "quantity": 1,
+        "name": "Kronk - Laid Back"
+      },
+      {
+        "quantity": 1,
+        "name": "I Find 'Em, I Flatten 'Em"
+      },
+      {
+        "quantity": 1,
+        "name": "Bend to My Will"
+      },
+      {
+        "quantity": 1,
+        "name": "Emerald Chromicon"
+      },
+      {
+        "quantity": 1,
+        "name": "Junior Woodchuck Guidebook"
+      }
+    ]
+  },
+  "tinkerbell": {
+    "source": "https://duels.ink/decks/01a02cf9-fa02-753c-bfd3-b0cd42be6b49/view",
+    "cards": [
+      {
+        "quantity": 1,
+        "name": "Piercing Attack"
+      },
+      {
+        "quantity": 1,
+        "name": "To Wither a Flower"
+      },
+      {
+        "quantity": 1,
+        "name": "Darkwing Duck - Shadowy Superhero"
+      },
+      {
+        "quantity": 1,
+        "name": "Windstorm"
+      },
+      {
+        "quantity": 1,
+        "name": "Look What You've Done"
+      },
+      {
+        "quantity": 1,
+        "name": "Elinor - Renowned Diplomat"
+      },
+      {
+        "quantity": 1,
+        "name": "Merida - Formidable Archer"
+      },
+      {
+        "quantity": 1,
+        "name": "Three Arrows"
+      },
+      {
+        "quantity": 1,
+        "name": "Battering Ram"
+      },
+      {
+        "quantity": 1,
+        "name": "Malicious, Mean, and Scary"
+      },
+      {
+        "quantity": 1,
+        "name": "Shere Khan - Fearsome Tiger"
+      },
+      {
+        "quantity": 1,
+        "name": "Robin Hood - Ephemeral Archer"
+      },
+      {
+        "quantity": 1,
+        "name": "He Hurled His Thunderbolt"
+      },
+      {
+        "quantity": 1,
+        "name": "Dumptruck - Karnage's Second Mate"
+      },
+      {
+        "quantity": 1,
+        "name": "Vincenzo Santorini - The Explosives Expert"
+      },
+      {
+        "quantity": 1,
+        "name": "Pete - Space Pirate"
+      },
+      {
+        "quantity": 1,
+        "name": "Bagheera - Guardian Jaguar"
+      },
+      {
+        "quantity": 1,
+        "name": "Unfortunate Situation"
+      },
+      {
+        "quantity": 1,
+        "name": "Anna - Diplomatic Queen"
+      },
+      {
+        "quantity": 1,
+        "name": "Scar - Vengeful Lion"
+      },
+      {
+        "quantity": 1,
+        "name": "Robin Hood - Sneaky Sleuth"
+      },
+      {
+        "quantity": 1,
+        "name": "Prince Phillip - Vanquisher of Foes"
+      },
+      {
+        "quantity": 1,
+        "name": "Cheshire Cat - From the Shadows"
+      },
+      {
+        "quantity": 1,
+        "name": "Let the Storm Rage On"
+      },
+      {
+        "quantity": 1,
+        "name": "Strength of a Raging Fire"
+      },
+      {
+        "quantity": 1,
+        "name": "Fire the Cannons!"
+      },
+      {
+        "quantity": 1,
+        "name": "Smash"
+      },
+      {
+        "quantity": 4,
+        "name": "Tinker Bell - Giant Fairy"
+      },
+      {
+        "quantity": 1,
+        "name": "Beast - Tragic Hero"
+      },
+      {
+        "quantity": 1,
+        "name": "Ba-Boom!"
+      },
+      {
+        "quantity": 1,
+        "name": "And Then Along Came Zeus"
+      },
+      {
+        "quantity": 1,
+        "name": "Friends on the Other Side"
+      },
+      {
+        "quantity": 1,
+        "name": "Simba - Fighting Prince"
+      },
+      {
+        "quantity": 1,
+        "name": "Signed Contract"
+      },
+      {
+        "quantity": 1,
+        "name": "Amethyst Chromicon"
+      },
+      {
+        "quantity": 1,
+        "name": "Genie - Supportive Friend"
+      },
+      {
+        "quantity": 1,
+        "name": "Goliath - Clan Leader"
+      },
+      {
+        "quantity": 1,
+        "name": "Junior Woodchuck Guidebook"
+      },
+      {
+        "quantity": 1,
+        "name": "Demona - Scourge of the Wyvern Clan"
+      },
+      {
+        "quantity": 1,
+        "name": "Hades - Looking for a Deal"
+      },
+      {
+        "quantity": 1,
+        "name": "Aladdin & Genie - Mischievous Pals"
+      },
+      {
+        "quantity": 1,
+        "name": "Ursula - Whisper of Vanessa"
+      },
+      {
+        "quantity": 1,
+        "name": "Robin Hood - Timely Contestant"
+      },
+      {
+        "quantity": 1,
+        "name": "Stitch - Team Underdog"
+      },
+      {
+        "quantity": 1,
+        "name": "Avalanche"
+      },
+      {
+        "quantity": 1,
+        "name": "Grab Your Sword"
+      },
+      {
+        "quantity": 1,
+        "name": "Go Go Tomago - Darting Dynamo"
+      },
+      {
+        "quantity": 1,
+        "name": "Angel - Experiment 624"
+      },
+      {
+        "quantity": 1,
+        "name": "Buzz Lightyear - On the Way"
+      },
+      {
+        "quantity": 1,
+        "name": "Broken Pod"
+      },
+      {
+        "quantity": 1,
+        "name": "Finders Keepers"
+      },
+      {
+        "quantity": 1,
+        "name": "Lord MacGuffin - Clever Swordsman"
+      },
+      {
+        "quantity": 1,
+        "name": "Chomp!"
+      },
+      {
+        "quantity": 1,
+        "name": "The Headless Horseman - Cursed Rider"
+      },
+      {
+        "quantity": 1,
+        "name": "Berlioz - Tiny Rascal"
+      },
+      {
+        "quantity": 1,
+        "name": "Kit Cloudkicker - Sure Shot"
+      },
+      {
+        "quantity": 1,
+        "name": "Ink Explosion"
+      },
+      {
+        "quantity": 1,
+        "name": "Pirate Plane"
+      },
+      {
+        "quantity": 1,
+        "name": "Don Karnage - Debonair Pirate"
+      },
+      {
+        "quantity": 1,
+        "name": "Air Drop"
+      }
+    ]
+  },
+  "sisu": {
+    "source": "https://duels.ink/decks/01a01fd6-ef41-7da0-a3ca-de34e886c86e/view",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "Sisu - Emboldened Warrior"
+      },
+      {
+        "quantity": 1,
+        "name": "Tinker Bell - Fancy Footwork"
+      },
+      {
+        "quantity": 1,
+        "name": "Toby - Dogged Companion"
+      },
+      {
+        "quantity": 1,
+        "name": "Moana - Self-Taught Sailor"
+      },
+      {
+        "quantity": 1,
+        "name": "Randall Boggs - Envious Coworker"
+      },
+      {
+        "quantity": 1,
+        "name": "Scrooge McDuck - Ghostly Ebenezer"
+      },
+      {
+        "quantity": 1,
+        "name": "Negaduck - Evil Doppelganger"
+      },
+      {
+        "quantity": 1,
+        "name": "Negaduck - Public Enemy Number One"
+      },
+      {
+        "quantity": 1,
+        "name": "Diablo - Watchful Raven"
+      },
+      {
+        "quantity": 1,
+        "name": "Darkwing Duck - Drake Mallard"
+      },
+      {
+        "quantity": 1,
+        "name": "Sulley - Strategic Scarer"
+      },
+      {
+        "quantity": 1,
+        "name": "Buzz Lightyear - Grounded"
+      },
+      {
+        "quantity": 1,
+        "name": "Buzz Lightyear - On the Way"
+      },
+      {
+        "quantity": 1,
+        "name": "Taurus Bulba - Steerminator"
+      },
+      {
+        "quantity": 1,
+        "name": "Norton Nimnul - Misanthropic Genius"
+      },
+      {
+        "quantity": 1,
+        "name": "Jiminy Cricket - Ghost of Christmas Past"
+      },
+      {
+        "quantity": 1,
+        "name": "Kristoff - Mining the Ruins"
+      },
+      {
+        "quantity": 1,
+        "name": "Kaa - Secretive Snake"
+      },
+      {
+        "quantity": 1,
+        "name": "Kaa - Suspicious Serpent"
+      },
+      {
+        "quantity": 1,
+        "name": "Elisa Maza - Intrepid Investigator"
+      },
+      {
+        "quantity": 1,
+        "name": "Fergus McDuck - Scrooge's Father"
+      },
+      {
+        "quantity": 1,
+        "name": "Hans - Noble Scoundrel"
+      },
+      {
+        "quantity": 1,
+        "name": "One Jump Ahead"
+      },
+      {
+        "quantity": 1,
+        "name": "Sail the Azurite Sea"
+      },
+      {
+        "quantity": 1,
+        "name": "Laugh Canister"
+      },
+      {
+        "quantity": 1,
+        "name": "Simba - Adventurous Successor"
+      },
+      {
+        "quantity": 1,
+        "name": "Scrooge's Counting House - Ebenezer's Office"
+      },
+      {
+        "quantity": 1,
+        "name": "Alice - Growing Girl"
+      },
+      {
+        "quantity": 1,
+        "name": "Gadget Hackwrench - Resourceful Mechanic"
+      },
+      {
+        "quantity": 1,
+        "name": "Fauna - Good-Natured Fairy"
+      },
+      {
+        "quantity": 1,
+        "name": "Daisy Duck - Ghost Finder"
+      },
+      {
+        "quantity": 1,
+        "name": "Philoctetes - Trainer of Heroes"
+      },
+      {
+        "quantity": 1,
+        "name": "Diablo - Devoted Herald"
+      },
+      {
+        "quantity": 1,
+        "name": "Scrooge McDuck - Ebenezer Scrooge"
+      },
+      {
+        "quantity": 1,
+        "name": "Thievery"
+      },
+      {
+        "quantity": 1,
+        "name": "A Pirate's Life"
+      },
+      {
+        "quantity": 1,
+        "name": "Be Prepared"
+      },
+      {
+        "quantity": 1,
+        "name": "Be King Undisputed"
+      },
+      {
+        "quantity": 1,
+        "name": "The Queen - Devious Disguise"
+      },
+      {
+        "quantity": 1,
+        "name": "Prince John - Greediest of All"
+      },
+      {
+        "quantity": 1,
+        "name": "Elinor - Renowned Diplomat"
+      },
+      {
+        "quantity": 1,
+        "name": "Donald Duck - Perfect Gentleman"
+      },
+      {
+        "quantity": 1,
+        "name": "Ursula's Garden - Full of the Unfortunate"
+      },
+      {
+        "quantity": 1,
+        "name": "Ranger Plane"
+      },
+      {
+        "quantity": 1,
+        "name": "The Great Illuminary - Radiant Ballroom"
+      },
+      {
+        "quantity": 1,
+        "name": "Flotilla - Coconut Armada"
+      },
+      {
+        "quantity": 1,
+        "name": "Closet Door Portal"
+      },
+      {
+        "quantity": 1,
+        "name": "Ink Amplifier"
+      },
+      {
+        "quantity": 1,
+        "name": "Jeweled Collar"
+      },
+      {
+        "quantity": 1,
+        "name": "Ink Geyser"
+      },
+      {
+        "quantity": 1,
+        "name": "Great Stone Dragon"
+      },
+      {
+        "quantity": 1,
+        "name": "Emerald Chromicon"
+      },
+      {
+        "quantity": 1,
+        "name": "Ruby Chromicon"
+      },
+      {
+        "quantity": 1,
+        "name": "Fishbone Quill"
+      },
+      {
+        "quantity": 1,
+        "name": "Pack Tactics"
+      },
+      {
+        "quantity": 1,
+        "name": "Daisy Duck - Multitalented Pirate"
+      },
+      {
+        "quantity": 1,
+        "name": "Tweedledee & Tweedledum - Strange Storytellers"
+      }
+    ]
+  },
+  "mufasa": {
+    "source": "https://duels.ink/decks/01a02eb1-fe9c-7bd4-88bd-423f60057548/view",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "Mufasa - Ruler of Pride Rock"
+      },
+      {
+        "quantity": 1,
+        "name": "Reuben - Sandwich Expert"
+      },
+      {
+        "quantity": 1,
+        "name": "Raging Storm"
+      },
+      {
+        "quantity": 1,
+        "name": "Ohana Means Family"
+      },
+      {
+        "quantity": 1,
+        "name": "Simba - King in the Making"
+      },
+      {
+        "quantity": 1,
+        "name": "The Horseman Strikes!"
+      },
+      {
+        "quantity": 1,
+        "name": "Julieta Madrigal - Excellent Cook"
+      },
+      {
+        "quantity": 1,
+        "name": "Stitch - Carefree Surfer"
+      },
+      {
+        "quantity": 1,
+        "name": "Goofy - Groundbreaking Chef"
+      },
+      {
+        "quantity": 1,
+        "name": "Blast from Your Past"
+      },
+      {
+        "quantity": 1,
+        "name": "Mufasa - Betrayed Leader"
+      },
+      {
+        "quantity": 1,
+        "name": "Rapunzel - Sunshine"
+      },
+      {
+        "quantity": 1,
+        "name": "Rapunzel - Gifted with Healing"
+      },
+      {
+        "quantity": 1,
+        "name": "Babyhead - Leader of Sid's Toys"
+      },
+      {
+        "quantity": 1,
+        "name": "Vincenzo Santorini - On the Run"
+      },
+      {
+        "quantity": 1,
+        "name": "Scrooge McDuck - Ebenezer Scrooge"
+      },
+      {
+        "quantity": 1,
+        "name": "Nani's Payback"
+      },
+      {
+        "quantity": 1,
+        "name": "Beast - Aggressive Lord"
+      },
+      {
+        "quantity": 1,
+        "name": "Ghostly Tale"
+      },
+      {
+        "quantity": 1,
+        "name": "Sisu - Emboldened Warrior"
+      },
+      {
+        "quantity": 1,
+        "name": "Sisu - Daring Visitor"
+      },
+      {
+        "quantity": 1,
+        "name": "Mulan - Injured Soldier"
+      },
+      {
+        "quantity": 1,
+        "name": "Mulan - Elite Archer"
+      },
+      {
+        "quantity": 1,
+        "name": "Be King Undisputed"
+      },
+      {
+        "quantity": 1,
+        "name": "Lyle Tiberius Rourke - Crystallized Mercenary"
+      },
+      {
+        "quantity": 1,
+        "name": "Beast - Wounded"
+      },
+      {
+        "quantity": 1,
+        "name": "Sisu - Empowered Sibling"
+      },
+      {
+        "quantity": 1,
+        "name": "Medallion Weights"
+      },
+      {
+        "quantity": 1,
+        "name": "Lady Tremaine - Imperious Queen"
+      },
+      {
+        "quantity": 1,
+        "name": "Mother Gothel - Withered and Wicked"
+      },
+      {
+        "quantity": 1,
+        "name": "Be Prepared"
+      },
+      {
+        "quantity": 1,
+        "name": "Belle - Always Reading"
+      },
+      {
+        "quantity": 1,
+        "name": "Bruno Madrigal - Oasis Oracle"
+      },
+      {
+        "quantity": 1,
+        "name": "Kida - Crystal Scion"
+      },
+      {
+        "quantity": 1,
+        "name": "Escape Plan"
+      },
+      {
+        "quantity": 1,
+        "name": "Cinderella - Dream Come True"
+      },
+      {
+        "quantity": 1,
+        "name": "Spooky Sight"
+      },
+      {
+        "quantity": 1,
+        "name": "Ink Amplifier"
+      },
+      {
+        "quantity": 1,
+        "name": "Hades - Infernal Schemer"
+      },
+      {
+        "quantity": 1,
+        "name": "Develop Your Brain"
+      },
+      {
+        "quantity": 1,
+        "name": "One Jump Ahead"
+      },
+      {
+        "quantity": 1,
+        "name": "Dig a Little Deeper"
+      },
+      {
+        "quantity": 1,
+        "name": "Sapphire Coil"
+      },
+      {
+        "quantity": 1,
+        "name": "Baymax - Armored Companion"
+      },
+      {
+        "quantity": 1,
+        "name": "Sail the Azurite Sea"
+      },
+      {
+        "quantity": 1,
+        "name": "Kuzco - Selfish Emperor"
+      },
+      {
+        "quantity": 1,
+        "name": "Tipo - Growing Son"
+      },
+      {
+        "quantity": 1,
+        "name": "Vision of the Future"
+      },
+      {
+        "quantity": 1,
+        "name": "Chicha - Dedicated Mother"
+      },
+      {
+        "quantity": 1,
+        "name": "Gramma Tala - Spirit of the Ocean"
+      },
+      {
+        "quantity": 1,
+        "name": "Falling Down the Rabbit Hole"
+      },
+      {
+        "quantity": 1,
+        "name": "Belle - Inventive Engineer"
+      },
+      {
+        "quantity": 1,
+        "name": "Belle - Strange but Special"
+      },
+      {
+        "quantity": 1,
+        "name": "Ludwig Von Drake - All-Around Expert"
+      },
+      {
+        "quantity": 1,
+        "name": "Belle & Beast - Certain as the Sun"
+      },
+      {
+        "quantity": 1,
+        "name": "Scrooge McDuck - Ghostly Ebenezer"
+      },
+      {
+        "quantity": 1,
+        "name": "Scrooge's Counting House - Ebenezer's Office"
+      }
+    ]
   }
 }
