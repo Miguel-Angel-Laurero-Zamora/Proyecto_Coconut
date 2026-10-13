@@ -31,7 +31,11 @@ function findInk(name: InkName): Ink {
 }
 
 const captainCatalog: Omit<Captain, 'inks'>[] = [
-  { slug: 'ariel', name: 'Ariel', image: '/img/capitanes/Ariel.jpg' },
+  { slug: 'ariel',
+    name: 'Ariel',
+    image: '/img/capitanes/Ariel.jpg',
+    deckImage: '/img/decks/ariel-coconut-duels-ink.jpg',
+  },
   { slug: 'donald', name: 'Donald', image: '/img/capitanes/Donald.jpg' },
   { slug: 'dumbo', name: 'Dumbo', image: '/img/capitanes/Dumbo.jpg' },
   { slug: 'john-silver', name: 'John Silver', image: '/img/capitanes/John Silver.jpg' },
@@ -64,7 +68,11 @@ const captainCatalog: Omit<Captain, 'inks'>[] = [
   { slug: 'tinkerbell', name: 'Tinker Bell', image: '/img/capitanes/Tinkerbell.jpg' },
   { slug: 'ursula', name: 'Ursula', image: '/img/capitanes/Ursula.jpg' },
   { slug: 'winnie', name: 'Winnie', image: '/img/capitanes/Winnie.jpg' },
-  { slug: 'snow-white', name: 'Blancanieves', image: '/img/capitanes/Snowwhite.jpg' },
+  { slug: 'snow-white',
+    name: 'Snow White',
+    image: '/img/capitanes/Snowwhite.jpg',
+    deckImage: '/img/decks/snow-white-coconut--duels-ink.jpg',
+  },
   {
     slug: 'aladdin-genie',
     name: 'Aladdin & Genie',
@@ -78,7 +86,11 @@ const captainCatalog: Omit<Captain, 'inks'>[] = [
     image: '/img/capitanes/Bella_Bestia.jpg',
     deckImage: '/img/decks/belle-and-beast-coconut--duels-ink.jpg',
   },
-  { slug: 'the-vine', name: 'The Vine', image: '/img/capitanes/TheVine.jpg' },
+  { slug: 'the-vine',
+    name: 'The Vine',
+    image: '/img/capitanes/TheVine.jpg',
+    deckImage: '/img/decks/the-vine-coconut--duels-ink.jpg',
+  },
   {
     slug: 'woody-buzz',
     name: 'Woody & Buzz',

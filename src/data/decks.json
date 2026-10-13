@@ -1629,5 +1629,471 @@
         "name": "Chernabog - Evildoer"
       }
     ]
+  },
+  "ariel": {
+    "source": "https://duels.ink/decks/019fb473-1501-7fa8-9849-e07f90235b7d/view",
+    "cards": [
+      {
+        "quantity": 1,
+        "name": "Rapunzel - Gifted with Healing"
+      },
+      {
+        "quantity": 1,
+        "name": "Stitch - Carefree Surfer"
+      },
+      {
+        "quantity": 1,
+        "name": "Be Prepared"
+      },
+      {
+        "quantity": 1,
+        "name": "Belle - Strange but Special"
+      },
+      {
+        "quantity": 1,
+        "name": "Aurora - Dreaming Guardian"
+      },
+      {
+        "quantity": 1,
+        "name": "World's Greatest Criminal Mind"
+      },
+      {
+        "quantity": 1,
+        "name": "Pawpsicle"
+      },
+      {
+        "quantity": 1,
+        "name": "The Bare Necessities"
+      },
+      {
+        "quantity": 1,
+        "name": "Ariel - Adventurous Collector"
+      },
+      {
+        "quantity": 1,
+        "name": "How Far I'll Go"
+      },
+      {
+        "quantity": 1,
+        "name": "Ariel - Singing Mermaid"
+      },
+      {
+        "quantity": 1,
+        "name": "Cinderella - Melody Weaver"
+      },
+      {
+        "quantity": 1,
+        "name": "Look at This Family"
+      },
+      {
+        "quantity": 1,
+        "name": "Prince Naveen - Ukulele Player"
+      },
+      {
+        "quantity": 1,
+        "name": "Maui - Half-Shark"
+      },
+      {
+        "quantity": 1,
+        "name": "Sail the Azurite Sea"
+      },
+      {
+        "quantity": 1,
+        "name": "Lilo - Escape Artist"
+      },
+      {
+        "quantity": 1,
+        "name": "Raya - Kumandran Rider"
+      },
+      {
+        "quantity": 1,
+        "name": "Ludwig Von Drake - All-Around Expert"
+      },
+      {
+        "quantity": 1,
+        "name": "Lilo - Causing an Uproar"
+      },
+      {
+        "quantity": 1,
+        "name": "Down in New Orleans"
+      },
+      {
+        "quantity": 1,
+        "name": "Aurora - Holding Court"
+      },
+      {
+        "quantity": 1,
+        "name": "Moana - Of Motunui"
+      },
+      {
+        "quantity": 1,
+        "name": "Ursula - Vanessa"
+      },
+      {
+        "quantity": 1,
+        "name": "Powerline - Taking the Stage"
+      },
+      {
+        "quantity": 1,
+        "name": "Powerline - World's Greatest Rock Star"
+      },
+      {
+        "quantity": 1,
+        "name": "Hades - Infernal Schemer"
+      },
+      {
+        "quantity": 1,
+        "name": "Circle of Life"
+      },
+      {
+        "quantity": 1,
+        "name": "Be Our Guest"
+      },
+      {
+        "quantity": 1,
+        "name": "A Pirate's Life"
+      },
+      {
+        "quantity": 1,
+        "name": "Be King Undisputed"
+      },
+      {
+        "quantity": 1,
+        "name": "Develop Your Brain"
+      },
+      {
+        "quantity": 1,
+        "name": "One Jump Ahead"
+      },
+      {
+        "quantity": 1,
+        "name": "Dig a Little Deeper"
+      },
+      {
+        "quantity": 1,
+        "name": "Ariel - Ethereal Voice"
+      },
+      {
+        "quantity": 1,
+        "name": "Della's Moon Lullaby"
+      },
+      {
+        "quantity": 1,
+        "name": "The Black Cauldron"
+      },
+      {
+        "quantity": 1,
+        "name": "Cinderella - Dream Come True"
+      },
+      {
+        "quantity": 1,
+        "name": "Mowgli - Man Cub"
+      },
+      {
+        "quantity": 1,
+        "name": "The Horseman Strikes!"
+      },
+      {
+        "quantity": 1,
+        "name": "Ohana Means Family"
+      },
+      {
+        "quantity": 1,
+        "name": "Moana - Curious Explorer"
+      },
+      {
+        "quantity": 1,
+        "name": "Belle - Snowfield Strategist"
+      },
+      {
+        "quantity": 1,
+        "name": "Akood et Emuti"
+      },
+      {
+        "quantity": 1,
+        "name": "Let It Go"
+      },
+      {
+        "quantity": 1,
+        "name": "Grab Your Bow"
+      },
+      {
+        "quantity": 1,
+        "name": "Olaf - Snowman of Action"
+      },
+      {
+        "quantity": 1,
+        "name": "Dale - Ready for His Shot"
+      },
+      {
+        "quantity": 1,
+        "name": "What Else Can I Do?"
+      },
+      {
+        "quantity": 1,
+        "name": "Merryweather - Feisty Fairy"
+      },
+      {
+        "quantity": 1,
+        "name": "Meilin Lee - Losing Control"
+      },
+      {
+        "quantity": 1,
+        "name": "Sulley - The New Boss"
+      },
+      {
+        "quantity": 1,
+        "name": "Besties, Assemble!"
+      },
+      {
+        "quantity": 1,
+        "name": "Gaston - Superior Archer"
+      },
+      {
+        "quantity": 1,
+        "name": "Red Moon Ritual"
+      },
+      {
+        "quantity": 1,
+        "name": "Mulan - Elite Archer"
+      },
+      {
+        "quantity": 4,
+        "name": "Ariel - Spectacular Singer"
+      }
+    ]
+  },
+  "snow-white": {
+    "source": "https://duels.ink/decks/01a03922-e8b3-7adc-a10a-64e598f194dd/view",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "Snow White - Merry as the Morning"
+      },
+      {
+        "quantity": 1,
+        "name": "Bashful - Riding the Rails"
+      },
+      {
+        "quantity": 1,
+        "name": "Doc - Taking Notes"
+      },
+      {
+        "quantity": 1,
+        "name": "Grumpy - Soreheaded Miner"
+      },
+      {
+        "quantity": 1,
+        "name": "Sneezy - Startlingly Loud"
+      },
+      {
+        "quantity": 1,
+        "name": "Happy - Joyful Adventurer"
+      },
+      {
+        "quantity": 1,
+        "name": "Sleepy - Deep Sleeper"
+      },
+      {
+        "quantity": 1,
+        "name": "Demona - Scourge of the Wyvern Clan"
+      },
+      {
+        "quantity": 1,
+        "name": "Dumbo - Ninth Wonder of the Universe"
+      },
+      {
+        "quantity": 1,
+        "name": "Captain Hook - Forceful Duelist"
+      },
+      {
+        "quantity": 1,
+        "name": "Iago - Giant Spectral Parrot"
+      },
+      {
+        "quantity": 1,
+        "name": "Diablo - Obedient Raven"
+      },
+      {
+        "quantity": 1,
+        "name": "Genie - Wish Fulfilled"
+      },
+      {
+        "quantity": 1,
+        "name": "Elsa - The Fifth Spirit"
+      },
+      {
+        "quantity": 1,
+        "name": "Sleepy - Sluggish Knight"
+      },
+      {
+        "quantity": 1,
+        "name": "Sneezy - Noisy Knight"
+      },
+      {
+        "quantity": 1,
+        "name": "Dopey - Knight Apprentice"
+      },
+      {
+        "quantity": 1,
+        "name": "Snow White - Fair-Hearted"
+      },
+      {
+        "quantity": 1,
+        "name": "Grumpy - Skeptical Knight"
+      },
+      {
+        "quantity": 1,
+        "name": "Bashful - Adoring Knight"
+      },
+      {
+        "quantity": 1,
+        "name": "Happy - Lively Knight"
+      },
+      {
+        "quantity": 1,
+        "name": "Doc - Bold Knight"
+      },
+      {
+        "quantity": 1,
+        "name": "Magic Broom - Illuminary Keeper"
+      },
+      {
+        "quantity": 1,
+        "name": "Chernabog's Followers - Creatures of Evil"
+      },
+      {
+        "quantity": 1,
+        "name": "Bashful - Hopeless Romantic"
+      },
+      {
+        "quantity": 1,
+        "name": "Doc - Leader of the Seven Dwarfs"
+      },
+      {
+        "quantity": 1,
+        "name": "Dopey - Always Playful"
+      },
+      {
+        "quantity": 1,
+        "name": "Grumpy - Bad-Tempered"
+      },
+      {
+        "quantity": 1,
+        "name": "Happy - Good-Natured"
+      },
+      {
+        "quantity": 1,
+        "name": "Sleepy - Nodding Off"
+      },
+      {
+        "quantity": 1,
+        "name": "Sneezy - Very Allergic"
+      },
+      {
+        "quantity": 1,
+        "name": "Snow White - Unexpected Houseguest"
+      },
+      {
+        "quantity": 1,
+        "name": "Snow White - Well Wisher"
+      },
+      {
+        "quantity": 1,
+        "name": "The Queen - Commanding Presence"
+      },
+      {
+        "quantity": 1,
+        "name": "The Queen - Regal Monarch"
+      },
+      {
+        "quantity": 1,
+        "name": "Cinderella - Knight in Training"
+      },
+      {
+        "quantity": 1,
+        "name": "Cinderella - Stouthearted"
+      },
+      {
+        "quantity": 1,
+        "name": "Junior Woodchuck Guidebook"
+      },
+      {
+        "quantity": 1,
+        "name": "Amethyst Chromicon"
+      },
+      {
+        "quantity": 1,
+        "name": "Right Behind You"
+      },
+      {
+        "quantity": 1,
+        "name": "Raging Storm"
+      },
+      {
+        "quantity": 1,
+        "name": "Colors of the Wind"
+      },
+      {
+        "quantity": 1,
+        "name": "The Horseman Strikes!"
+      },
+      {
+        "quantity": 1,
+        "name": "Be Our Guest"
+      },
+      {
+        "quantity": 1,
+        "name": "I Find 'Em, I Flatten 'Em"
+      },
+      {
+        "quantity": 1,
+        "name": "Fire the Cannons!"
+      },
+      {
+        "quantity": 1,
+        "name": "Strength of a Raging Fire"
+      },
+      {
+        "quantity": 1,
+        "name": "Finders Keepers"
+      },
+      {
+        "quantity": 1,
+        "name": "The Bare Necessities"
+      },
+      {
+        "quantity": 1,
+        "name": "And Then Along Came Zeus"
+      },
+      {
+        "quantity": 1,
+        "name": "Let the Storm Rage On"
+      },
+      {
+        "quantity": 1,
+        "name": "Friends on the Other Side"
+      },
+      {
+        "quantity": 1,
+        "name": "Grab Your Sword"
+      },
+      {
+        "quantity": 1,
+        "name": "Seven Dwarfs' Mine - Secure Fortress"
+      },
+      {
+        "quantity": 1,
+        "name": "Mike Wazowski - Heroic Climber"
+      },
+      {
+        "quantity": 1,
+        "name": "Besties, Assemble!"
+      },
+      {
+        "quantity": 1,
+        "name": "You Broke My Smolder"
+      }
+    ]
   }
 }
