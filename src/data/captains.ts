@@ -47,11 +47,12 @@ const captainCatalog: Omit<Captain, 'inks'>[] = [
   { slug: 'tinkerbell', name: 'Tinker Bell', image: '/img/capitanes/Tinkerbell.jpg' },
   { slug: 'ursula', name: 'Ursula', image: '/img/capitanes/Ursula.jpg' },
   { slug: 'winnie', name: 'Winnie', image: '/img/capitanes/Winnie.jpg' },
-  { slug: 'snow-white', name: 'Blancanieves', image: '/img/capitanes/snowwhite.jpg' },
+  { slug: 'snow-white', name: 'Blancanieves', image: '/img/capitanes/Snowwhite.jpg' },
   { slug: 'aladdin-genie', name: 'Aladdin & Genie', image: '/img/capitanes/Aladdin_Genie.jpg' },
-  { slug: 'peter-tinker', name: 'Peter Pan & Tinkerbell', image: '/img/capitanes/Aladdin_Genie.jpg' },
-  { slug: 'belle-beast', name: 'Belle & Beast', image: '/img/capitanes/Aladdin_Genie.jpg' },
-  { slug: 'the-vine', name: 'The Vine', image: '/img/capitanes/Aladdin_Genie.jpg' },
+  { slug: 'peter-tinker', name: 'Peter Pan & Tinkerbell', image: '/img/capitanes/Peter_Tinker.jpg' },
+  { slug: 'belle-beast', name: 'Belle & Beast', image: '/img/capitanes/Bella_Bestia.jpg' },
+  { slug: 'the-vine', name: 'The Vine', image: '/img/capitanes/TheVine.jpg' },
+  { slug: 'woody-buzz', name: 'Woody & Buzz', image: '/img/capitanes/Woody_Buzz.jpg' },
 ]
 
 const captainInkBySlug: Record<string, InkName[]> = {
@@ -77,6 +78,7 @@ const captainInkBySlug: Record<string, InkName[]> = {
   'belle-beast': ['Rubí', 'Zafiro'],
   'the-vine': ['Acero'],
   'peter-tinker': ['Amatista', 'Rubí'],
+  'woody-buzz': ['Ámbar','Esmeralda'],
 }
 
 export const captains: Captain[] = captainCatalog.map((captain) => {
